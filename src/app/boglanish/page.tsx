@@ -94,12 +94,12 @@ export default function BoglanishPage() {
             <h3 className="font-bold text-slate-900 text-sm">Telegram Bot / Kanal</h3>
             <p className="text-xs text-slate-500 mt-1">Tezkor onlayn maslahat</p>
             <a
-              href="https://t.me"
+              href="@fayzbek_admin"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-3 text-sm font-extrabold text-emerald-600 hover:text-emerald-700"
             >
-              @ShopZone_Support
+              @fayzbek_admin
             </a>
           </div>
 
@@ -110,7 +110,7 @@ export default function BoglanishPage() {
             <h3 className="font-bold text-slate-900 text-sm">Elektron pochta</h3>
             <p className="text-xs text-slate-500 mt-1">Hamkorlik va takliflar uchun</p>
             <a
-              href="mailto:info@shopzone.uz"
+              href="mailto:info@fayzbek_admin"
               className="inline-block mt-3 text-sm font-extrabold text-purple-600 hover:text-purple-700"
             >
               info@shopzone.uz
@@ -176,7 +176,7 @@ export default function BoglanishPage() {
                   <input
                     type="tel"
                     required
-                    placeholder="+998 (90) 123-45-67"
+                    placeholder="+998 (97) 298-87-88"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
                     className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 text-xs sm:text-sm focus:bg-white focus:outline-hidden focus:border-indigo-600 transition"

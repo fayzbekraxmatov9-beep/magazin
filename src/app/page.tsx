@@ -40,7 +40,7 @@ export default function Home() {
       <Navbar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
 
       {/* 2. HERO BANNER */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-indigo-900 via-slate-900 to-indigo-950 text-white py-16 md:py-24">
+      <section className="relative overflow-hidden bg-linear-to-br from-indigo-900 via-slate-900 to-indigo-950 text-white py-16 md:py-24">
         {/* Decorative background glow */}
         <div className="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-indigo-500/20 rounded-full blur-3xl pointer-events-none" />
         <div className="absolute bottom-0 left-10 -mb-20 w-80 h-80 bg-purple-500/20 rounded-full blur-3xl pointer-events-none" />
@@ -54,7 +54,7 @@ export default function Home() {
               </div>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight">
                 Hayotingizni qulay qiluvchi{" "}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 via-pink-300 to-amber-200">
+                <span className="text-transparent bg-clip-text bg-linear-to-r from-indigo-300 via-pink-300 to-amber-200">
                   zamonaviy mahsulotlar
                 </span>
               </h1>
@@ -96,7 +96,7 @@ export default function Home() {
 
             {/* Hero Image Card */}
             <div className="lg:col-span-5 relative">
-              <div className="relative mx-auto max-w-md rounded-3xl overflow-hidden bg-gradient-to-b from-indigo-500/10 to-purple-500/10 p-3 border border-indigo-400/20 backdrop-blur-xl shadow-2xl">
+              <div className="relative mx-auto max-w-md rounded-3xl overflow-hidden bg-linear-to-b from-indigo-500/10 to-purple-500/10 p-3 border border-indigo-400/20 backdrop-blur-xl shadow-2xl">
                 <div className="relative h-80 sm:h-96 w-full rounded-2xl overflow-hidden">
                   <Image
                     src="https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80"
@@ -105,7 +105,7 @@ export default function Home() {
                     className="object-cover hover:scale-105 transition duration-700"
                     priority
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent" />
+                  <div className="absolute inset-0 bg-linear-to-t from-slate-950/80 via-transparent to-transparent" />
                   <div className="absolute bottom-5 left-5 right-5 text-white">
                     <span className="px-2.5 py-1 rounded-md bg-indigo-600 text-xs font-semibold uppercase tracking-wider">
                       Hafta mahsuloti
@@ -248,7 +248,7 @@ export default function Home() {
 
       {/* 5. PROMO BANNER */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 w-full">
-        <div className="relative rounded-3xl overflow-hidden bg-gradient-to-r from-purple-700 via-indigo-600 to-blue-600 p-8 sm:p-12 text-white shadow-2xl">
+        <div className="relative rounded-3xl overflow-hidden bg-linear-to-r from-purple-700 via-indigo-600 to-blue-600 p-8 sm:p-12 text-white shadow-2xl">
           <div className="relative z-10 max-w-xl space-y-4">
             <span className="bg-white/20 backdrop-blur-md px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider text-white">
               Eksklyuziv Taklif
